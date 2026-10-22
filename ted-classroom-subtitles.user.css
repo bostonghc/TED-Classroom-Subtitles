@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name         TED Classroom Subtitles
+@namespace    ted-classroom-subtitles
+@version      1.0.0
+@description  Larger, configurable TED subtitles for classrooms and projectors.
+@license      MIT
+@preprocessor default
+
+@var select subtitleSize "Subtitle font size" {
+  "standard:Standard enlarged (24px)": "24px",
+  "classroom*:Classroom (32px)": "32px",
+  "lecture:Large lecture hall (40px)": "40px",
+  "extra:Extra large (48px)": "48px"
+}
+
+@var select subtitleWidth "Subtitle area width" {
+  "normal:Original (560px)": "560px",
+  "wide*:Wide (85%)": "85%",
+  "wider:Extra wide (95%)": "95%"
+}
+==/UserStyle== */
+
+@-moz-document domain("ted.com") {
+  /* Enlarge subtitle text. */
+  #subtitles-container .whitespace-pre-line {
+    font-size: var(--subtitleSize) !important;
+    line-height: 1.35 !important;
+  }
+
+  /* Let longer subtitle lines wrap across a wider area. */
+  #subtitles-container .max-w-\\[560px\\] {
+    max-width: var(--subtitleWidth) !important;
+  }
+}
