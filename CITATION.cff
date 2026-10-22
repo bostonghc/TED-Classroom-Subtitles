@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or adapt this style, please cite it as below."
+type: software
+title: "TED Classroom Subtitles"
+abstract: >-
+  A Stylus user style (CSS) that makes TED talk subtitles easier to read on
+  classroom displays and projectors, with configurable subtitle size and
+  subtitle area width. Client-side only: no JavaScript, tracking or network
+  requests.
+authors:
+  - family-names: Carr
+    given-names: Geoffrey
+    affiliation: "Asahikawa City University"
+    orcid: "https://orcid.org/0009-0002-9829-8986"
+version: 1.0.0
+date-released: 2026-10-22   # update to the GitHub release date
+license: MIT
+repository-code: "https://github.com/bostonghc/TED-Classroom-Subtitles"
+keywords:
+  - TED
+  - subtitles
+  - captions
+  - classroom
+  - accessibility
+  - EFL
+  - user style
