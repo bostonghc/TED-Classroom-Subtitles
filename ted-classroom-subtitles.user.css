@@ -28,7 +28,7 @@
   }
 
   /* Let longer subtitle lines wrap across a wider area. */
-  #subtitles-container .max-w-\\[560px\\] {
+  #subtitles-container .max-w-\[560px\] {
     max-width: var(--subtitleWidth) !important;
   }
 }
