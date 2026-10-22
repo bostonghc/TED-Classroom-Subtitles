@@ -33,6 +33,10 @@ The style is scoped to `ted.com` and targets the subtitle container and CSS clas
 
 The style only changes subtitle appearance. It does not add subtitles, change TED's playback controls, or alter the underlying video.
 
+## Privacy and network behavior
+
+This is a client-side CSS style. It contains no JavaScript, tracking code, external assets, or network requests. It does not specify or connect to a TED IP address. Stylus applies the rules to the TED page already open in your browser; normal browser traffic to TED to load the page, player, and video still occurs. See [PRIVACY.md](PRIVACY.md) for details.
+
 ## Development
 
 Edit `ted-classroom-subtitles.user.css` and reload the style in Stylus to try changes. The UserCSS metadata at the top defines the name, version, and configurable options.
