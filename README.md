@@ -13,7 +13,7 @@ The defaults are **32 px** and **85%**.
 ## Install
 
 1. Install Stylus for your browser from the [official Stylus project](https://github.com/openstyles/stylus).
-2. Open [ted-classroom-subtitles.user.css](ted-classroom-subtitles.user.css) from this repository. On GitHub, select **Raw**; Stylus should offer to install the user style. You can also use the [raw stylesheet URL](https://raw.githubusercontent.com/bostonghc/TED-Classroom-Subtitles/main/ted-classroom-subtitles.user.css).
+2. Open [`ted-classroom-subtitles.user.css`](ted-classroom-subtitles.user.css) from this repository. On GitHub, select **Raw**; Stylus should offer to install the user style. You can also use the [raw stylesheet URL](https://raw.githubusercontent.com/bostonghc/TED-Classroom-Subtitles/main/ted-classroom-subtitles.user.css).
 3. In Stylus, enable the style and visit a TED talk with subtitles turned on.
 
 ## Configure
