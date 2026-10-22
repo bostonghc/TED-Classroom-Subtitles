@@ -12,9 +12,18 @@ The defaults are **32 px** and **85%**.
 
 ## Install
 
-1. Install Stylus for your browser from the [official Stylus project](https://github.com/openstyles/stylus).
-2. Open [`ted-classroom-subtitles.user.css`](ted-classroom-subtitles.user.css) from this repository. On GitHub, select **Raw**; Stylus should offer to install the user style. You can also use the [raw stylesheet URL](https://raw.githubusercontent.com/bostonghc/TED-Classroom-Subtitles/main/ted-classroom-subtitles.user.css).
-3. In Stylus, enable the style and visit a TED talk with subtitles turned on.
+### Supported browsers
+
+Stylus supports Chrome, Firefox, and Chromium-based browsers. That includes browsers such as Microsoft Edge, Brave, Opera, and Vivaldi; availability depends on the browser's extension store. Check the [official Stylus project page](https://github.com/openstyles/stylus) for current browser and installation options. This stylesheet is intended for TED pages opened in a supported browser with Stylus installed.
+
+### Install the style
+
+1. Install the [Stylus browser extension](https://github.com/openstyles/stylus) from the extension store for your browser, then make sure it is enabled.
+2. Open the [raw UserCSS file](https://raw.githubusercontent.com/bostonghc/TED-Classroom-Subtitles/main/ted-classroom-subtitles.user.css) in that browser. Because the link serves the plain `.user.css` file, Stylus should open its style installation page.
+3. Review the style name and settings, then click **Install style** in Stylus.
+4. Visit a TED talk, turn subtitles on, and check that the style is enabled for `ted.com` in the Stylus extension menu.
+
+To change the subtitle size or width later, open the installed style's configuration in Stylus and save your choices. If the install page does not appear, confirm Stylus is enabled and that you opened the raw stylesheet URL rather than the GitHub file preview. See Stylus's [UserCSS installation instructions](https://github.com/openstyles/stylus/wiki/Writing-UserCSS) for more details.
 
 ## Configure
 
